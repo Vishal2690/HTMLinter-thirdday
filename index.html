@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="black">
+    <font color="red">
+    <h1><u>HTML INTERVIEW QNA</u></h1>
+    </font>
+    <hr color="white">
+    <br>
+    <h3><font color="yellow"> 1. Write a code to insert an image</h3>
+        <h3>Code:-</h3>
+    <p>&lt;img src=”address of the link” /></p>
+    <h3>Output:-</h3>
+    <h3>Image</h3>
+    <img src="https://www.wallsnapy.com/img_gallery/master-new-poster-hd-image-download-1641956.jpg" alt="404 error"  height="300" width="260">
+    <br>
+    <hr>
+    <br>
+    <br>
+    <h3> 2. Create a form that contain input fields like name, age, email and contact.</h3>
+    <h3>Code:-</h3>
+    
+        &lt;form action="#">
+        &lt;label for="name">Name:&lt;/label> <br>
+        &lt;input type="text" name="name" id="name">&lt;br>&lt;br>
+            <br>
+            <br>
+        &lt;label for="email">Email:&lt;/label><br>
+        &lt;input type="email" name="email" id="name">&lt;br>&lt;br>
+            <br>
+            <br>
+        &lt;label for="age">Age: &lt;/label><br>
+        &lt;input type="number" name="age" id="name">&lt;br>&lt;br>
+            <br>
+            <br>
+        &lt;label for="contact">Contact:&lt;/label><br>
+        &lt;input type="tel" name="contact" id="contact">&lt;br>&lt;br>
+            <br>
+            <br>
+        &lt;/form>
+
+        <h3>Output:-</h3>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name"><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="name"><br><br>
+            
+            <label for="age">Age: </label>
+            <input type="number" name="age" id="name"><br><br>
+            
+            <label for="contact">Contact:</label>
+            <input type="tel" name="contact" id="contact"><br><br>
+            
+            </form>
+            <br>
+            <hr>
+            <br>
+
+            <h3> 3. Create a table and explain how to achieve colspan?</h3>
+            <h3>Code:-</h3>
+            <p>
+                &lt;table border="1">
+                <br>
+                    &lt;tr>
+                    <br>
+                    &lt;th>Name</th>
+                    <br>
+                    &lt;th colspan="2">Designation&lt;/th>
+                    <br>
+                    &lt;/tr>
+                    <br>
+                    &lt;tr>
+                    <br>
+                    &lt;td>Rohan&lt;/td>
+                    <br>
+                    &lt;td>Front-end Dev&lt;/td>
+                    <br>
+                    &lt;td>Backend Dev&lt;/td>
+                    <br>
+                    &lt;/tr>
+                    <br>
+                    &lt;tr>
+                    <br>
+                    &lt;td>Vihan&lt;/td>
+                    <br>
+                    &lt;td>Front-end Dev&lt;/td>
+                    <br>
+                    &lt;td>Backend Dev&lt;/td>
+                    <br>
+                    &lt;/tr>
+                    <br>
+                    &lt;/table>
+                    
+                  <h3>Output:-</h3>  
+                    
+            </p>
+            <table border="5" bordercolor="brown" bgcolor="orange">
+                <tr> 
+                <th><font color="black">Name</font></th>
+                <th colspan="2"><font color="black">Designation</font></th>
+                </tr>
+                <tr>
+                <td><font color="blue">Rohan</font></td>
+                <td><font color="blue">Front-end Dev</font></td>
+                <td><font color="blue">Backend Dev</font></td>
+                </tr>
+                <tr>
+                <td><font color="blue">Vihan</font></td>
+                <td><font color="blue">Front-end Dev</font></td>
+                <td><font color="blue">Backend Dev</font></td>
+                </tr>
+                </table>
+                <p>colspan=”2″ tells the browser to span the cell to the last column of the column group (colgroup).</p>
+
+                <br>
+                <hr>
+                <br>
+                <h3> 4. Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two ?</h3>
+
+                <h3>Code:-</h3>
+                <p>
+&lt;input type="radio" value="MERN" name="course" id="course">
+&lt;label for="course">MERN&lt;/label>
+<br>
+<br>
+&lt;input type="radio" value="MEAN" name="course" id="course">
+&lt;label for="course">MEAN&lt;/label>
+<br>
+<br>
+&lt;input type="checkbox" value="HTML" name="technology-1" id="technology">
+&lt;label for="technology">HTML&lt;/label>
+<br>
+<br>
+&lt;input type="checkbox" value="CSS" name="technology-2" id="technology">
+&lt;label for="technology">CSS&lt;/label>
+<br>
+<br>
+&lt;input type="checkbox" value="React" name="technology-3" id="technology">
+&lt;label for="technology">React&lt;/label>
+<br>
+<br>
+&lt;input type="checkbox" value="Node" name="technology-4" id="technology">
+&lt;label for="">Node&lt;/label>&lt;br>&lt;br>
+</p>
+<br>
+<h3>Output:-</h3>
+<h3>Radio Button :-</h3>
+<input type="radio" value="MERN" name="course" id="course">
+<label for="course">MERN</label>
+<input type="radio" value="MEAN" name="course" id="course">
+<label for="course">MEAN</label>
+<br>
+<h3>CheckBox :-</h3>
+<input type="checkbox" value="HTML" name="technology-1" id="technology">
+<label for="technology">HTML</label>
+
+<input type="checkbox" value="CSS" name="technology-2" id="technology">
+<label for="technology">CSS</label>
+
+<input type="checkbox" value="React" name="technology-3" id="technology">
+<label for="technology">React</label>
+
+<input type="checkbox" value="Node" name="technology-4" id="technology">
+<label for="">Node</label><br><br>      
+            
+<table border="4" bordercolor="red" bgcolor="lime">
+    <font color="white">
+<thead >
+    
+    <tr>
+        <th><font color="black">Radio</font></th>
+        <th><font color="black">Checkbox</font></th>
+    </tr>
+
+    <tbody>
+        <tr>
+            <td><font color="black">Its is used when only one option to be selected out of several available options.</font></td>
+            <td><font color="black">Its is used when only one option to be selected out of several available options.	Checkbox allow one or many options to be selected.</font></td>
+        </tr>
+        <tr>
+            <td><font color="black">Radio button is presented as small circle on the screen.	Checkbox is presented as small square box on the screen.</font></td>
+            <td><font color="black">Radio button is presented as small circle on the screen.	Checkbox is presented as small square box on the screen.</font></td>
+        </tr>
+        <tr>
+            <td><font color="black">It is used when you want to limit the user's choice to just one option from the range provided.	It is used when you want to allow user to select multiple options.</font></td>
+            <td><font color="black">It is used when you want to limit the user's choice to just one option from the range provided.	It is used when you want to allow user to select multiple options.</font></td>
+        </tr>
+    </tbody>
+</thead>
+</table>
+</body>
+</html>
